@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost AI | LoL Performance Analysis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0b0b0d;
+            --card-bg: #16161a;
+            --accent-color: #a855f7; /* Morado Neon */
+            --text-main: #ffffff;
+            --text-dim: #94a3b8;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 40px 20px;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #a855f7, #6366f1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .description {
+            color: var(--text-dim);
+            line-height: 1.6;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .download-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            background: var(--card-bg);
+            border: 1px solid #333;
+            padding: 20px 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.3s ease;
+            width: 200px;
+        }
+
+        .btn:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .btn i {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: var(--accent-color);
+        }
+
+        .btn span {
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 40px;
+            border-top: 1px solid #222;
+            width: 100%;
+            text-align: center;
+        }
+
+        .contact-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GHOST AI</h1>
+        <p class="description">
+            Plataforma de vanguardia dedicada al análisis de rendimiento post-partida para jugadores de League of Legends. 
+            Transformamos estadísticas complejas en información visual accionable mediante mapas de calor y curvas de oro por minuto [cite: 2026-03-06].
+        </p>
+
+        <div class="download-container">
+            <a href="https://github.com/Juankemicchi/GhostAI" class="btn">
+                <i class="fab fa-windows"></i>
+                <span>Descargar Windows</span>
+            </a>
+
+            <a href="#" class="btn" style="opacity: 0.6; cursor: not-allowed;">
+                <i class="fab fa-android"></i>
+                <span>Android (Próximamente)</span>
+            </a>
+        </div>
+    </header>
+
+    <footer>
+        <p style="color: var(--text-dim); margin-bottom: 15px;">¿Necesitas ayuda técnica?</p>
+        <a href="mailto:tu_correo@gmail.com?subject=Soporte%20Ghost%20AI" class="contact-link">
+            <i class="fas fa-envelope"></i> Contactar Soporte
+        </a>
+        <p style="font-size: 0.8rem; color: #444; margin-top: 20px;">
+            Ghost AI no está avalado por Riot Games y no refleja las opiniones de Riot Games [cite: 2026-03-06].
+        </p>
+    </footer>
+
+</body>
+</html>'
